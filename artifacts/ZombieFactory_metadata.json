@@ -53,46 +53,6 @@
 				"constant": false,
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_zombieId",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_newDna",
-						"type": "uint256"
-					}
-				],
-				"name": "changeDna",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_zombieId",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_newName",
-						"type": "string"
-					}
-				],
-				"name": "changeName",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [
-					{
 						"internalType": "string",
 						"name": "_name",
 						"type": "string"
@@ -102,72 +62,6 @@
 				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_zombieId",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_targetDna",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_species",
-						"type": "string"
-					}
-				],
-				"name": "feedAndMultiply",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_zombieId",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_kittyId",
-						"type": "uint256"
-					}
-				],
-				"name": "feedOnKitty",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": true,
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
-					}
-				],
-				"name": "getZombiesByOwner",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -204,21 +98,6 @@
 				"constant": false,
 				"inputs": [],
 				"name": "renounceOwnership",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_address",
-						"type": "address"
-					}
-				],
-				"name": "setKittyContractAddress",
 				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
@@ -326,7 +205,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"zombiehelper.sol": "ZombieHelper"
+			"zombiefactory.sol": "ZombieFactory"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -349,20 +228,6 @@
 			"urls": [
 				"bzz-raw://3c110905a46e4f85a65dd216315e7bbb4f8fba9e8cd7ae0262435315e6afec2a",
 				"dweb:/ipfs/Qmc4eqY6pMMtXeM5tMMe6xpJh5UBackCqPWHmQqhnMJqvz"
-			]
-		},
-		"zombiefeeding.sol": {
-			"keccak256": "0x813b682c08fb745c60fb7c704790c0acd013facffbffd1d04461474c5efca96d",
-			"urls": [
-				"bzz-raw://7081c6a4b77f513cfc2970ef7a38dd18b5a37bf57f767051d6987ec760623fba",
-				"dweb:/ipfs/QmTGSHV8L9Empcc9TmLoNZ4JnsuGibrk1oiVeqFJPR3SDH"
-			]
-		},
-		"zombiehelper.sol": {
-			"keccak256": "0xfd570ce178cfac15ea4d5b01b8b54eb52cfc986b990f1073a0a955d723ecb555",
-			"urls": [
-				"bzz-raw://faab00f008c68ad4f8c393bb456a47f1537c8dd76dfdd5f048bf34e5836218cf",
-				"dweb:/ipfs/QmW4Zj3rtstdbYiyeyh7Ysdv8kCFTYNqgo4NWs3LGnmnPT"
 			]
 		}
 	},
