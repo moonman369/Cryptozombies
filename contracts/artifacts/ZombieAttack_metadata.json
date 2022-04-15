@@ -59,6 +59,26 @@
 					},
 					{
 						"internalType": "uint256",
+						"name": "_targetId",
+						"type": "uint256"
+					}
+				],
+				"name": "attack",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_zombieId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
 						"name": "_newDna",
 						"type": "uint256"
 					}
@@ -350,7 +370,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/zombiehelper.sol": "ZombieHelper"
+			"contracts/zombieattack.sol": "ZombieAttack"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -366,6 +386,13 @@
 			"urls": [
 				"bzz-raw://78f615823cde88d4d5e3d07cda3cfad7f0bc57ff6ea5f0900a24b0c642cc80b1",
 				"dweb:/ipfs/QmR1UAo7Ym95oG2sXf84HpE1pH7F6Aeah8ruZPt4CMfWMg"
+			]
+		},
+		"contracts/zombieattack.sol": {
+			"keccak256": "0xc4a3becd10edc7b0e044bd0a94da407c829c203f9cb62eafb97c35958995b0a5",
+			"urls": [
+				"bzz-raw://5d45db030e573b8bfe016d72583a33025d8ca640bb02216d360418e2be7ba6f2",
+				"dweb:/ipfs/QmU443EDydBGVNh6eC9MHwNN5WwcGyHqkQ56TBrozHhe3y"
 			]
 		},
 		"contracts/zombiefactory.sol": {
